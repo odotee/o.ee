@@ -16,7 +16,7 @@ async function Tags({params}: Params) {
     const {slug: currentTag} = await params;
 
     try {
-        const postsData = getPostsList('Blog', [
+        const postsData = getPostsList('blog', [
             'title',
             'excerpt',
             'date',
@@ -110,7 +110,7 @@ export async function generateMetadata({params}: Params) {
 export async function generateStaticParams() {
     const tags: { [key: string]: number } = {};
 
-    getPostsList('Blog', ['date', 'tags'])
+    getPostsList('blog', ['date', 'tags'])
         .map((post) => post.tags as string[])
         .forEach((item) => {
             item?.forEach((tag) => {
