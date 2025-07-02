@@ -13,7 +13,7 @@ export const metadata: Metadata = MetadataTool({
 })
 
 export default function  Page() {
-    const tags = getTagListArray('Blog');
+    const tags = getTagListArray('blog');
     return (
         <>
             <SectionHeading title={website_config.seo.tags.title}/>
