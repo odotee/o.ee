@@ -6,8 +6,8 @@ import {loadMDXContent} from '@/lib/readMdxFile';
 import {Metadata} from "next";
 
 export const metadata: Metadata = MetadataTool({
-    title: website_config.seo.contact.title,
-    description: website_config.seo.contact.description,
+    title: website_config.seo.donate.title,
+    description: website_config.seo.donate.description,
     pageType: 'article',
 })
 
