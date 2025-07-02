@@ -22,7 +22,7 @@ export const MetadataTool = ({
         description: description,
         keywords: keywords,
         other: {
-            "fediverse:creator": '',
+            "fediverse:creator": '@ooo@c.im',
         },
         openGraph: {
             title: title,
