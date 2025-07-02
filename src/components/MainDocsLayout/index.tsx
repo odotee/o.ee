@@ -17,7 +17,7 @@ const MainDocsLayout: FC<MainDocsLayoutProps> = ({children}) => {
         : false;
 
     return (
-        <div id="scroll-container" className="h-[calc(100vh-120px)] py-10 px-5 overflow-auto">
+        <div id="scroll-container" className="h-[calc(100vh-167px)] py-10 px-5 overflow-auto">
             <div
                 className={clsx(
                     'max-w-[1400px] mx-auto min-h-full',
